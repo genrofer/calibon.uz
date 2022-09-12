@@ -1,26 +1,24 @@
 let bizhaqimizda = document.querySelector(".bizhaqimizda")
 let mahsulotlar = document.querySelector(".mahsulotlar")
 let boglanish = document.querySelector(".boglanish")
+let home = document.querySelector(".home")
 
 let lang = document.querySelector(".select-lang");
 let select = document.querySelector(".select");
 let arrow = document.querySelector(".arrow"); 
 
 bizhaqimizda.addEventListener("click", () => {
-     window.location.reload()
-     window.location.href = 'index.html#bizhaqimizda'
+     home.classList.remove("menu_active")
 })
 
 
 mahsulotlar.addEventListener("click", () => {
-     window.location.reload()
-     window.location.href = 'index.html#mahsulotlar'
+     home.classList.remove("menu_active")
 })
 
 
 boglanish.addEventListener("click", () => {
-     window.location.reload()
-     window.location.href = 'index.html#boglanish'
+     home.classList.remove("menu_active")
 })
 
 
