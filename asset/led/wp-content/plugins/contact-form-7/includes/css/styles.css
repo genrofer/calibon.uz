@@ -1,3 +1,27 @@
+@media only screen and (max-width: 600px) {
+	.bizga-qoshiling {
+		top: 30% !important;
+	}
+
+	.elementor-widget-sm-default-button #left-btn {
+		margin-left: 40% !important;
+		width: max-content !important;
+	}
+}
+
+.select-lang {
+	font-size: 15px !important;
+	padding: 3px 5px !important;
+	height: 30px !important;
+	cursor: pointer;
+	margin-top: 6px;
+	margin-right: 50px !important;
+}
+
+.select-lang option {
+	cursor: pointer;
+}
+
 .wpcf7 .screen-reader-response {
 	position: absolute;
 	overflow: hidden;
