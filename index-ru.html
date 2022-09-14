@@ -661,6 +661,7 @@
 			height: 250px;
 		}
 	</style>
+	<link rel="stylesheet" href="./asset/js/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
@@ -791,9 +792,18 @@
 											<div class="elementor-widget-wrap">
 												<div class="elementor-element elementor-element-9ef0ef2 elementor-widget__width-auto elementor-widget elementor-widget-sm-menu"
 													data-id="9ef0ef2" data-element_type="widget"
-													style='margin-right: 100px'
 													data-widget_type="sm-menu.default">
 													<div class="elementor-widget-container">
+														<div class="block-right">
+															<div class="select d-flex">
+															    <select name="lang" id="lang" onchange="selectFunction2()" class="select-lang2">
+																   <option value="uz" class="uzbek"> Uz </option>
+																   <option value="ru" selected>Ру</option>
+																   <option value="en">En</option>
+															    </select>
+															    <!-- <i class="fa-solid arrow fa-arrow-up"></i> -->
+															</div>
+														 </div>
 														<div id="elementor-header-primary"
 															class="elementor-header"> <button
 																class="sm_menu_toggle"><i

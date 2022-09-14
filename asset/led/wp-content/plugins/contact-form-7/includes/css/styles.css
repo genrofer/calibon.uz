@@ -7,6 +7,11 @@
 		margin-left: 40% !important;
 		width: max-content !important;
 	}
+
+	.sm_menu_toggle {
+		margin-right: -10px !important;
+		padding: 0 !important;
+	}
 }
 
 .d-none {

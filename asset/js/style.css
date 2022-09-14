@@ -1,0 +1,34 @@
+.select-lang2 {
+     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+     .bizga-qoshiling {
+          top: 30% !important;
+     }
+
+     .elementor-widget-sm-default-button #left-btn {
+          margin-left: 40% !important;
+          width: max-content !important;
+     }
+
+     #elementor-header-primary .sm_menu_toggle {
+          margin-right: 2px !important;
+          padding: 5px 10px !important;
+          padding-bottom: 7px !important;
+          border-radius: 2px !important;
+     }
+
+     .select-lang2 {
+          display: block;
+          padding: 0 4px !important;
+          position: absolute;
+          right: 140%;
+          border-radius: 2px !important;
+          height: 40px !important;       
+     }
+
+     .select-lang2 option {
+          width: 10px !important;       
+     }
+}
