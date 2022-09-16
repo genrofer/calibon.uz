@@ -2,6 +2,19 @@
      display: none;
 }
 
+.select-lang {
+     font-size: 15px !important;
+     padding: 3px 5px !important;
+     height: 30px !important;
+     cursor: pointer;
+     margin-top: 6px;
+     margin-right: 50px !important;      
+}
+
+.select-lang option {
+     width: 10px !important;       
+}
+
 @media only screen and (max-width: 600px) {
      .bizga-qoshiling {
           top: 30% !important;
@@ -31,4 +44,6 @@
      .select-lang2 option {
           width: 10px !important;       
      }
+
+     
 }

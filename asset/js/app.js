@@ -46,3 +46,23 @@ function selectFunction2() {
           window.location.href = "index-en.html";
      } 
 }
+
+function selectFunction3() {
+     if (lang.value === "uz") {
+          window.location.href = "more.html";
+     } else if (lang.value === "ru") {
+          window.location.href = "more-ru.html";
+     } else if (lang.value === "en") {
+          window.location.href = "more-en.html";
+     } 
+}
+
+function selectFunction4() {
+     if (lang2.value === "uz") {
+          window.location.href = "more.html";
+     } else if (lang2.value === "ru") {
+          window.location.href = "more-ru.html";
+     } else if (lang2.value === "en") {
+          window.location.href = "more-en.html";
+     } 
+}
